@@ -25,7 +25,7 @@ SECRET_KEY = 's%ruj!hb03^-kw806yc!f(#12#@ozu9x$l$)ls5o(vn158%hu&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool(int(os.environ.get('DEBUG',1))) #env var set in supervisor file
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ec2-3-14-79-66.us-east-2.compute.amazonaws.com', '127.0.0.1']
 
 
 # Application definition
