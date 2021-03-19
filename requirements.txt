@@ -1,5 +1,5 @@
 Django==2.2.6
-djangorestframework==3.10.3
+djangorestframework==3.11.2
 djangorestframework-api-key==1.4.1
 nltk==3.4.5
 numpy==1.17.2
